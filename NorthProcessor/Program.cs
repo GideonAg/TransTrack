@@ -24,18 +24,14 @@ namespace NorthProcessor
                 Console.WriteLine("    Warehouse North CSV File Processor");
                 Console.WriteLine("==============================================\n");
 
-                // Initialize components
                 InitializeComponents();
 
                 _logger.LogInfo("North Processor started");
 
-                // Load configuration
                 LoadConfiguration();
 
-                // Ensure directories exist
                 EnsureDirectoriesExist();
 
-                // Process files
                 ProcessFiles();
 
                 _logger.LogInfo("North Processor completed successfully");
@@ -60,11 +56,9 @@ namespace NorthProcessor
 
         private static void InitializeComponents()
         {
-            // Initialize logger
             _logger = new FileLogger();
             Console.WriteLine("✓ Logger initialized");
 
-            // Initialize Cloudinary uploader
             string cloudName = ConfigurationManager.AppSettings["CloudinaryCloudName"];
             string apiKey = ConfigurationManager.AppSettings["CloudinaryApiKey"];
             string apiSecret = ConfigurationManager.AppSettings["CloudinaryApiSecret"];
@@ -114,7 +108,6 @@ namespace NorthProcessor
 
         private static void ProcessFiles()
         {
-            // Get all CSV files from input folder
             string[] csvFiles = FileMover.GetFiles(_config.InputFolder, "*.csv");
 
             if (csvFiles.Length == 0)
@@ -130,7 +123,6 @@ namespace NorthProcessor
             int successCount = 0;
             int errorCount = 0;
 
-            // Process each file
             foreach (string filePath in csvFiles)
             {
                 string fileName = FileHelper.GetFileName(filePath);
@@ -158,7 +150,6 @@ namespace NorthProcessor
                     _logger.LogError($"Error processing file {fileName}", ex);
                     Console.WriteLine($"  ✗ Error: {ex.Message}\n");
 
-                    // Move to errors folder
                     try
                     {
                         FileMover.MoveFile(filePath, _config.ErrorsFolder);
@@ -171,7 +162,6 @@ namespace NorthProcessor
                 }
             }
 
-            // Summary
             Console.WriteLine("==============================================");
             Console.WriteLine($"Processing Summary:");
             Console.WriteLine($"  Total Files: {csvFiles.Length}");
@@ -188,19 +178,16 @@ namespace NorthProcessor
 
             try
             {
-                // Step 1: Parse the CSV file
                 _logger.LogInfo($"Parsing CSV file: {fileName}");
                 List<ShipmentRecord> records = CsvParser.ParseCsvFile(filePath);
                 Console.WriteLine($"  Parsed {records.Count} record(s)");
 
-                // Step 2: Validate records
                 _logger.LogInfo($"Validating records for: {fileName}");
                 var validator = ValidatorFactory.GetNorthValidator();
                 ValidationResult validationResult = validator.ValidateFile(records, fileName);
 
                 if (!validationResult.IsValid)
                 {
-                    // File is invalid - move to errors
                     _logger.LogWarning($"Validation failed for {fileName}: {validationResult.GetErrorSummary()}");
                     Console.WriteLine($"  Validation failed:");
                     foreach (var error in validationResult.ErrorMessages)
@@ -215,14 +202,12 @@ namespace NorthProcessor
 
                 Console.WriteLine($"  ✓ Validation passed");
 
-                // Step 3: Upload to Cloudinary
                 _logger.LogInfo($"Uploading {fileName} to Cloudinary");
                 Console.WriteLine($"  Uploading to Cloudinary...");
                 string fileUrl = _uploader.UploadFile(filePath);
                 Console.WriteLine($"  ✓ Upload complete");
                 _logger.LogInfo($"File uploaded successfully: {fileUrl}");
 
-                // Step 4: Write processed output file
                 var summary = new ProcessingSummary(fileName)
                 {
                     TotalRecords = records.Count,
@@ -237,7 +222,6 @@ namespace NorthProcessor
                 OutputWriter.WriteProcessedFile(outputPath, summary);
                 Console.WriteLine($"  ✓ Output file created");
 
-                // Step 5: Move original file to processed folder
                 FileMover.MoveFile(filePath, _config.ProcessedFolder);
                 _logger.LogInfo($"File processed successfully: {fileName}");
 

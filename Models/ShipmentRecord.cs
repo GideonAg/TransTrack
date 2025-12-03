@@ -14,10 +14,8 @@ namespace Models
         public DateTime ShipmentDate { get; set; }
         public string RawData { get; set; }
 
-        // North-specific
         public decimal? Weight { get; set; }
 
-        // South-specific
         public string Region { get; set; }
         public string LoadType { get; set; }
 
