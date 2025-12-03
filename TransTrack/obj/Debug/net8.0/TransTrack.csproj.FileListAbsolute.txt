@@ -1,0 +1,14 @@
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\bin\Debug\net8.0\TransTrack.exe
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\bin\Debug\net8.0\TransTrack.deps.json
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\bin\Debug\net8.0\TransTrack.runtimeconfig.json
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\bin\Debug\net8.0\TransTrack.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\bin\Debug\net8.0\TransTrack.pdb
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.AssemblyInfoInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.AssemblyInfo.cs
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.csproj.CoreCompileInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\refint\TransTrack.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.pdb
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\TransTrack.genruntimeconfig.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net8.0\ref\TransTrack.dll
