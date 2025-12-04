@@ -1,0 +1,84 @@
+# Visual Studio / Rider
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.sln.iml
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+artifacts/
+build/
+publish/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet / packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# MSBuild / temporary files
+*.log
+*.vspscc
+*.vssscc
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Rider / ReSharper
+_ReSharper*/
+*ReSharper.*
+*.DotSettings.user
+
+# User secrets / credentials / env files (do NOT commit real secrets)
+secrets.json
+appsettings.*.Development.json
+.env
+*.pfx
+*.key
+*.pem
+
+# Database / local data / caches
+*.db
+*.sqlite
+*.mdf
+*.ldf
+*.bak
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Other common excludes
+*.tmp
+*.temp
+*.cache
+
+# Logs and diagnostics
+*.log
+logs/
+
+# Package manager folders (if added)
+node_modules/
+jspm_packages/
+
+# Ignore publish output and deployment artifacts
+*.Publish.xml
+publish/
+deploy/
+
+# IDE workspace / local run configs
+.vscode/
+*.jks
