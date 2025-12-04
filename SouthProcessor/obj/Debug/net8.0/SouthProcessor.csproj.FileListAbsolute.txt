@@ -32,3 +32,4 @@ C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTr
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\SouthProcessor\obj\Debug\net8.0\SouthProcessor.pdb
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\SouthProcessor\obj\Debug\net8.0\SouthProcessor.genruntimeconfig.cache
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\SouthProcessor\obj\Debug\net8.0\ref\SouthProcessor.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\SouthProcessor\obj\Debug\net8.0\SouthProcessor.sourcelink.json

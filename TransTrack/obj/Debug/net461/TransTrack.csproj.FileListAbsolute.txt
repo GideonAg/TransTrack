@@ -1,0 +1,6 @@
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net461\TransTrack.csproj.AssemblyReference.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net461\TransTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net461\TransTrack.AssemblyInfoInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net461\TransTrack.AssemblyInfo.cs
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net461\TransTrack.csproj.CoreCompileInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\TransTrack\obj\Debug\net461\TransTrack.sourcelink.json

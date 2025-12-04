@@ -6,6 +6,9 @@ using Logging;
 using static Services.CloudinaryUploader;
 using TransTrack.Logging;
 using System.Configuration;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace NorthProcessor
 {
@@ -19,11 +22,6 @@ namespace NorthProcessor
         {
             try
             {
-                Console.WriteLine("==============================================");
-                Console.WriteLine("    North Processor - TransTrack Ltd.");
-                Console.WriteLine("    Warehouse North CSV File Processor");
-                Console.WriteLine("==============================================\n");
-
                 InitializeComponents();
 
                 _logger.LogInfo("North Processor started");
@@ -162,12 +160,10 @@ namespace NorthProcessor
                 }
             }
 
-            Console.WriteLine("==============================================");
             Console.WriteLine($"Processing Summary:");
             Console.WriteLine($"  Total Files: {csvFiles.Length}");
             Console.WriteLine($"  Successful: {successCount}");
             Console.WriteLine($"  Failed: {errorCount}");
-            Console.WriteLine("==============================================");
 
             _logger.LogInfo($"Processing complete - Success: {successCount}, Failed: {errorCount}");
         }

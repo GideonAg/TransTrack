@@ -1,2 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net461\1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net461.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net461\1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net461.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.runtime.compilerservices.unsafe\6.1.2\buildTransitive\net461\System.Runtime.CompilerServices.Unsafe.targets" Condition="Exists('$(NuGetPackageRoot)system.runtime.compilerservices.unsafe\6.1.2\buildTransitive\net461\System.Runtime.CompilerServices.Unsafe.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.numerics.vectors\4.6.1\buildTransitive\net461\System.Numerics.Vectors.targets" Condition="Exists('$(NuGetPackageRoot)system.numerics.vectors\4.6.1\buildTransitive\net461\System.Numerics.Vectors.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.buffers\4.6.1\buildTransitive\net461\System.Buffers.targets" Condition="Exists('$(NuGetPackageRoot)system.buffers\4.6.1\buildTransitive\net461\System.Buffers.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.memory\4.6.3\buildTransitive\net461\System.Memory.targets" Condition="Exists('$(NuGetPackageRoot)system.memory\4.6.3\buildTransitive\net461\System.Memory.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.security.cryptography.protecteddata\10.0.0\buildTransitive\net461\System.Security.Cryptography.ProtectedData.targets" Condition="Exists('$(NuGetPackageRoot)system.security.cryptography.protecteddata\10.0.0\buildTransitive\net461\System.Security.Cryptography.ProtectedData.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.configuration.configurationmanager\10.0.0\buildTransitive\net461\System.Configuration.ConfigurationManager.targets" Condition="Exists('$(NuGetPackageRoot)system.configuration.configurationmanager\10.0.0\buildTransitive\net461\System.Configuration.ConfigurationManager.targets')" />
+  </ImportGroup>
+</Project>

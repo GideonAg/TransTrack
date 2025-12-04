@@ -9,3 +9,4 @@ C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTr
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Models\obj\Debug\net8.0\refint\Models.dll
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Models\obj\Debug\net8.0\Models.pdb
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Models\obj\Debug\net8.0\ref\Models.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Models\obj\Debug\net8.0\Models.sourcelink.json

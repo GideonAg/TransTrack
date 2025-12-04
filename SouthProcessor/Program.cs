@@ -2,7 +2,10 @@
 using Logging;
 using Models;
 using Services;
+using System;
+using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using TransTrack.Logging;
 using Validation;
 using static Services.CloudinaryUploader;
@@ -52,9 +55,9 @@ namespace SouthProcessor
             _logger = new FileLogger();
             Console.WriteLine("✓ Logger initialized");
 
-            string cloudName = ConfigurationManager.AppSettings["CloudinaryCloudName"]!;
-            string apiKey = ConfigurationManager.AppSettings["CloudinaryApiKey"]!;
-            string apiSecret = ConfigurationManager.AppSettings["CloudinaryApiSecret"]!;
+            string cloudName = ConfigurationManager.AppSettings["CloudinaryCloudName"];
+            string apiKey = ConfigurationManager.AppSettings["CloudinaryApiKey"];
+            string apiSecret = ConfigurationManager.AppSettings["CloudinaryApiSecret"];
 
             if (string.IsNullOrWhiteSpace(cloudName) ||
                 string.IsNullOrWhiteSpace(apiKey) ||
@@ -78,9 +81,9 @@ namespace SouthProcessor
                 InputFolder = ConfigurationManager.AppSettings["InputFolder"] ?? @"C:\TransTrack\South\Incoming",
                 ProcessedFolder = ConfigurationManager.AppSettings["ProcessedFolder"] ?? @"C:\TransTrack\South\Processed",
                 ErrorsFolder = ConfigurationManager.AppSettings["ErrorsFolder"] ?? @"C:\TransTrack\South\Errors",
-                CloudinaryCloudName = ConfigurationManager.AppSettings["CloudinaryCloudName"]!,
-                CloudinaryApiKey = ConfigurationManager.AppSettings["CloudinaryApiKey"]!,
-                CloudinaryApiSecret = ConfigurationManager.AppSettings["CloudinaryApiSecret"]!
+                CloudinaryCloudName = ConfigurationManager.AppSettings["CloudinaryCloudName"],
+                CloudinaryApiKey = ConfigurationManager.AppSettings["CloudinaryApiKey"],
+                CloudinaryApiSecret = ConfigurationManager.AppSettings["CloudinaryApiSecret"]
             };
 
             _logger.LogInfo($"Configuration loaded - Input: {_config.InputFolder}");

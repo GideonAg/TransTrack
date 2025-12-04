@@ -1,0 +1,13 @@
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.csproj.AssemblyReference.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.AssemblyInfoInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.AssemblyInfo.cs
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.csproj.CoreCompileInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.sourcelink.json
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\bin\Debug\net461\Validation.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\bin\Debug\net461\Validation.pdb
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\bin\Debug\net461\Models.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\bin\Debug\net461\Models.pdb
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.csproj.Up2Date
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net461\Validation.pdb

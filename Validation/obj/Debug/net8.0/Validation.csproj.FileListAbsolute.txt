@@ -13,3 +13,4 @@ C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTr
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net8.0\refint\Validation.dll
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net8.0\Validation.pdb
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net8.0\ref\Validation.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Validation\obj\Debug\net8.0\Validation.sourcelink.json
