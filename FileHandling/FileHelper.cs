@@ -1,4 +1,7 @@
-﻿namespace FileHandling
+﻿using System;
+using System.IO;
+
+namespace FileHandling
 {
     public static class FileHelper
     {

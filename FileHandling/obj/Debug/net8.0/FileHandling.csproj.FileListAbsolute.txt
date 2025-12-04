@@ -13,3 +13,4 @@ C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTr
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\FileHandling\obj\Debug\net8.0\refint\FileHandling.dll
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\FileHandling\obj\Debug\net8.0\FileHandling.pdb
 C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\FileHandling\obj\Debug\net8.0\ref\FileHandling.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\FileHandling\obj\Debug\net8.0\FileHandling.sourcelink.json

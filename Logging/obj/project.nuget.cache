@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0RMB2BWs3VE=",
+  "dgSpecHash": "uHwVHAN2VLc=",
   "success": true,
   "projectFilePath": "C:\\Users\\GideonAgbosu\\OneDrive - AmaliTech gGmbH\\Desktop\\studies\\c sharp\\TransTrack\\Logging\\Logging.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\GideonAgbosu\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\GideonAgbosu\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.3\\microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,10 @@
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.csproj.AssemblyReference.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.AssemblyInfoInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.AssemblyInfo.cs
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.csproj.CoreCompileInputs.cache
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.sourcelink.json
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\bin\Debug\net461\Logging.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\bin\Debug\net461\Logging.pdb
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.dll
+C:\Users\GideonAgbosu\OneDrive - AmaliTech gGmbH\Desktop\studies\c sharp\TransTrack\Logging\obj\Debug\net461\Logging.pdb
